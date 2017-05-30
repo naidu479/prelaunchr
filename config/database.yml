@@ -1,8 +1,19 @@
 development:
+  host: localhost
   adapter: postgresql
+  encoding: unicode
   database: prelaunchr_development
-  host: localhost
+  password:
 test:
-  adapter: postgresql
-  database: prelaunchr_test
   host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: prelaunchr_test
+  password:
+production:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: prelaunchr_production
+  password:
+
