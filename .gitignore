@@ -31,7 +31,11 @@ config/secrets.yml
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 # Ignore the default database config
-config/database.yml
+/config/database.yml
+/config/environments/production.rb
+/config/initializers/devise.rb
+/config/initializers/devise.rb
+config/unicorn.rb
 
 # Ignore all logfiles and tempfiles.
 /lib/assets/*.csv
