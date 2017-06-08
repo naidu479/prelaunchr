@@ -2,6 +2,13 @@ worker_processes 3
 timeout 30
 preload_app true
 
+listen "/home/ubuntu/prelaunchr/tmp/sockets/unicorn.sock", :backlog => 64  
+pid "/home/ubuntu/prelaunchr/tmp/pids/unicorn.pid"
+
+# Set the path of the log files inside the log folder of the testapp 
+stderr_path "/home/ubuntu/prelaunchr/log/unicorn.stderr.log"
+stdout_path "/home/ubuntu/prelaunchr/log/unicorn.stdout.log"
+
 before_fork do |server, worker|
 
   Signal.trap 'TERM' do
