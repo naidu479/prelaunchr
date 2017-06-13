@@ -31,7 +31,7 @@ html.home{
 #home .hero{
 	width: 100%;
 	height: 446px;
-	background: image-url("home/hero.jpg") center center no-repeat;
+	background: image-url("home/hero.png") center center no-repeat;
 	background-size: 1600px 446px;
 	overflow: hidden;
 	position: relative;
@@ -256,7 +256,7 @@ html.home{
 }
 
 #refer .header .content{
-	width: 315px;
+	width: 340px;
 	margin: 0 auto;
 }
 
@@ -270,19 +270,21 @@ html.home{
 
 #refer .header .byline{
 	font-size: 14px;
+  margin-left: 26px;
+  margin-top: 2.25px;
+  font-weight: bold;
 }
 
 #refer .header .logo{
-	font-weight: normal;
-	font-size: 0;
+	font-weight: bolder;
+	font-size: 26px;
 	line-height: 0;
-	margin-right: 14px;
-	letter-spacing: 1px;
-	background: image-url("refer/logo.png") 0 0 no-repeat;
+	margin-right: 4px;
+	
 	background-size: 106px 19px;
 	height: 19px;
 	width: 106px;
-	margin-top: 15px;
+	margin-top: 26px;
 }
 
 #refer .hero{
@@ -616,7 +618,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-		background: image-url("home/hero@2x.jpg") center center no-repeat;
+		background: image-url("home/hero@2x.png") center center no-repeat;
 		background-size: 1600px 446px;
 	}
 
@@ -626,7 +628,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 
 	#refer .header .logo{
-		background: image-url("refer/logo@2x.png") 0 0 no-repeat;
+		
 		background-size: 106px 19px;
 	}
 
